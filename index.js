@@ -19,6 +19,7 @@ app.get('/alumnos', async (req, res) => {
   }
 });
 
+
 app.post('/alumnos', async (req, res) => {
   try {
     const { nombre, apellido, edad, correo } = req.body;
